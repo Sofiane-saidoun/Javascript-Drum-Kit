@@ -1,0 +1,45 @@
+*,
+::after,
+::before {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  background: url("https://cdn.pixabay.com/photo/2018/06/30/09/29/music-3507317_960_720.jpg")
+    center center / cover no-repeat;
+}
+
+.keys {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.key {
+  display: inline-block;
+  width: 50px;
+  padding: 20px;
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  margin: 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+  transition: all 0.5s;
+}
+
+kbd {
+  display: block;
+  font-size: 60px;
+}
+
+.sound {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #bc6514;
+}
