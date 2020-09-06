@@ -30,7 +30,7 @@ body {
   text-align: center;
   background: rgba(0, 0, 0, 0.4);
   text-shadow: 0 0 0.5rem black;
-  transition: all 0.5s;
+  transition: all 0.08s;
 }
 
 kbd {
@@ -42,4 +42,9 @@ kbd {
   font-size: 12px;
   text-transform: uppercase;
   color: #bc6514;
+}
+.play {
+  transform: scale(1.1);
+  border-color: #bc6514;
+  box-shadow: 0 0 10px #bc6514;
 }
